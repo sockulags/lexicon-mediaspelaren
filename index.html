@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./app.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-rel="stylesheet">
-<!-- <span class="material-icons"></span> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./songmode.css" />
+    <!-- <span class="material-icons"></span> -->
     <title>Mediaspelaren</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="bg-pic"></div>
+    <header class="header">
+      <span class="arrow-back material-icons">arrow_back_ios</span>
+      <span class="header-text">Playlist - Moody</span>
+      <span class="more-vert material-icons">more_vert</span>
+    </header>
+    <main>
+      <section class="song-mode">
+        <figure class="album-image-container">
+          <img
+            src="./img/On_Your_Side_album_cover.jpg"
+            alt="A rocket to the moon - album cover"
+          />
+        </figure>
+
+        <article class="song-info-container">
+          <span class="add material-icons">add_circle_outline</span>
+          <div class="song-info">
+            <p class="upper-text">A Rocket to the moon</p>
+            <p class="lower-text">Like we used to</p>
+          </div>
+          <span class="heart material-icons">favorite</span>
+        </article>
+        <article class="timeline-container">
+            <span>0:40</span>
+            <div class="outer-timeline">
+              <div class="inner-timeline"></div>
+            </div>
+            <span>3.42</span>
+          </article>
+        <article class="controls">
+          <span class="material-icons">replay</span>
+          <span class="material-icons previous">fast_rewind</span>
+          <span class="material-icons play">play_circle_filled</span>
+          <span class="material-icons previous">fast_forward</span>
+          <span class="material-icons shuffle">shuffle</span>
+        </article>
+      </section>
+      <section class="playlist-mode"></section>
+    </main>
+  </body>
 </html>

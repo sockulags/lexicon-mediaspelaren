@@ -1,0 +1,35 @@
+body, *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    padding-top: 0px;
+    
+}
+
+body{
+    padding-top: 54px;
+}
+
+.bg-pic{
+    position: fixed;
+    left: -6px;
+    right: -6px;
+    top: -6px;
+    bottom: -6px;
+    background-image: url("./img/ragnbone_man.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+ 
+
+ filter: blur(5px);
+z-index: -1000;  
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+  }

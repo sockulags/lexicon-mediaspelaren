@@ -1,0 +1,18 @@
+.header {
+    background-color: rgba(67, 57, 57, 0.8);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    z-index: 1;
+}
+
+.header .header-text{
+    font-size: 20px;
+    font-weight: 500;
+}
