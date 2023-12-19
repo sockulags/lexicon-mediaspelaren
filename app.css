@@ -27,9 +27,31 @@ body{
 z-index: -1000;  
 }
 
-main {
+  p {
+    margin: 0;
+  }
+  
+  .media-player {
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: rgba(67, 57, 57, 0.8);
+    color: rgb(255, 255, 255);
+  }
+  
+  @media screen and (min-width: 750px) {
+    body {
+      margin: auto;
+      max-width: 750px;
+      padding-top: 0;
+    }
+  
+    .media-player {
+      display: flex;
+      flex-direction: row-reverse;        
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     
+    }
   }
